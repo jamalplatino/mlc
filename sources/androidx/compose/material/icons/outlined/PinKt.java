@@ -1,0 +1,123 @@
+package androidx.compose.material.icons.outlined;
+
+import androidx.compose.material.icons.Icons;
+import androidx.compose.ui.graphics.Brush;
+import androidx.compose.ui.graphics.Color;
+import androidx.compose.ui.graphics.SolidColor;
+import androidx.compose.ui.graphics.StrokeCap;
+import androidx.compose.ui.graphics.StrokeJoin;
+import androidx.compose.ui.graphics.vector.ImageVector;
+import androidx.compose.ui.graphics.vector.PathBuilder;
+import androidx.compose.ui.graphics.vector.VectorKt;
+import androidx.compose.ui.unit.Dp;
+import kotlin.Metadata;
+import kotlin.jvm.internal.DefaultConstructorMarker;
+import kotlin.jvm.internal.Intrinsics;
+
+@Metadata(d1 = {"\u0000\u0010\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\b\u0003\"\u0010\u0010\u0000\u001a\u0004\u0018\u00010\u0001X\u000e¢\u0006\u0002\n\u0000\"\u0015\u0010\u0002\u001a\u00020\u0001*\u00020\u00038F¢\u0006\u0006\u001a\u0004\b\u0004\u0010\u0005¨\u0006\u0006"}, d2 = {"_pin", "Landroidx/compose/ui/graphics/vector/ImageVector;", "Pin", "Landroidx/compose/material/icons/Icons$Outlined;", "getPin", "(Landroidx/compose/material/icons/Icons$Outlined;)Landroidx/compose/ui/graphics/vector/ImageVector;", "material-icons-extended-outlined_release"}, k = 2, mv = {1, 8, 0}, xi = 48)
+/* compiled from: Pin.kt */
+public final class PinKt {
+    private static ImageVector _pin;
+
+    public static final ImageVector getPin(Icons.Outlined outlined) {
+        Intrinsics.checkNotNullParameter(outlined, "<this>");
+        ImageVector imageVector = _pin;
+        if (imageVector != null) {
+            Intrinsics.checkNotNull(imageVector);
+            return imageVector;
+        }
+        ImageVector.Builder builder = r1;
+        ImageVector.Builder builder2 = r1;
+        ImageVector.Builder builder3 = r1;
+        ImageVector.Builder builder4 = r1;
+        ImageVector.Builder builder5 = new ImageVector.Builder("Outlined.Pin", Dp.m5626constructorimpl(24.0f), Dp.m5626constructorimpl(24.0f), 24.0f, 24.0f, 0, 0, false, 224, (DefaultConstructorMarker) null);
+        int r22 = StrokeCap.Companion.m3204getButtKaPHkGw();
+        int r23 = StrokeJoin.Companion.m3214getBevelLxFBmk8();
+        PathBuilder pathBuilder = new PathBuilder();
+        pathBuilder.moveTo(20.0f, 4.0f);
+        pathBuilder.horizontalLineTo(4.0f);
+        pathBuilder.curveTo(2.9f, 4.0f, 2.0f, 4.9f, 2.0f, 6.0f);
+        pathBuilder.verticalLineToRelative(12.0f);
+        PathBuilder pathBuilder2 = pathBuilder;
+        pathBuilder2.curveToRelative(0.0f, 1.1f, 0.9f, 2.0f, 2.0f, 2.0f);
+        pathBuilder.horizontalLineToRelative(16.0f);
+        pathBuilder2.curveToRelative(1.1f, 0.0f, 2.0f, -0.9f, 2.0f, -2.0f);
+        pathBuilder.verticalLineTo(6.0f);
+        pathBuilder2.curveTo(22.0f, 4.9f, 21.1f, 4.0f, 20.0f, 4.0f);
+        pathBuilder.close();
+        pathBuilder.moveTo(20.0f, 18.0f);
+        pathBuilder.horizontalLineTo(4.0f);
+        pathBuilder.verticalLineTo(6.0f);
+        pathBuilder.horizontalLineToRelative(16.0f);
+        pathBuilder.verticalLineTo(18.0f);
+        pathBuilder.close();
+        ImageVector.Builder.m3530addPathoIyEayM$default(builder4, pathBuilder.getNodes(), VectorKt.getDefaultFillType(), "", new SolidColor(Color.Companion.m2847getBlack0d7_KjU(), (DefaultConstructorMarker) null), 1.0f, (Brush) null, 1.0f, 1.0f, r22, r23, 1.0f, 0.0f, 0.0f, 0.0f, 14336, (Object) null);
+        int r39 = StrokeCap.Companion.m3204getButtKaPHkGw();
+        int r40 = StrokeJoin.Companion.m3214getBevelLxFBmk8();
+        PathBuilder pathBuilder3 = new PathBuilder();
+        pathBuilder3.moveTo(6.49f, 10.5f);
+        pathBuilder3.lineToRelative(0.0f, 4.5f);
+        pathBuilder3.lineToRelative(1.15f, 0.0f);
+        pathBuilder3.lineToRelative(0.0f, -6.0f);
+        pathBuilder3.lineToRelative(-0.87f, 0.0f);
+        pathBuilder3.lineToRelative(-1.76f, 1.27f);
+        pathBuilder3.lineToRelative(0.58f, 0.89f);
+        pathBuilder3.close();
+        ImageVector.Builder.m3530addPathoIyEayM$default(builder3, pathBuilder3.getNodes(), VectorKt.getDefaultFillType(), "", new SolidColor(Color.Companion.m2847getBlack0d7_KjU(), (DefaultConstructorMarker) null), 1.0f, (Brush) null, 1.0f, 1.0f, r39, r40, 1.0f, 0.0f, 0.0f, 0.0f, 14336, (Object) null);
+        int r56 = StrokeCap.Companion.m3204getButtKaPHkGw();
+        int r57 = StrokeJoin.Companion.m3214getBevelLxFBmk8();
+        PathBuilder pathBuilder4 = new PathBuilder();
+        pathBuilder4.moveTo(11.47f, 10.05f);
+        PathBuilder pathBuilder5 = pathBuilder4;
+        pathBuilder5.curveToRelative(0.5f, 0.0f, 0.81f, 0.32f, 0.81f, 0.72f);
+        pathBuilder5.curveToRelative(0.0f, 0.37f, -0.14f, 0.64f, -0.54f, 1.06f);
+        pathBuilder5.curveToRelative(-0.36f, 0.38f, -1.06f, 1.08f, -2.13f, 2.15f);
+        pathBuilder4.verticalLineTo(15.0f);
+        pathBuilder4.horizontalLineToRelative(3.89f);
+        pathBuilder4.verticalLineToRelative(-0.99f);
+        pathBuilder4.horizontalLineToRelative(-2.37f);
+        pathBuilder4.lineToRelative(-0.03f, -0.05f);
+        pathBuilder5.curveToRelative(0.68f, -0.68f, 1.15f, -1.14f, 1.4f, -1.39f);
+        pathBuilder5.curveToRelative(0.61f, -0.6f, 0.92f, -1.22f, 0.92f, -1.86f);
+        pathBuilder5.curveToRelative(0.0f, -0.24f, -0.05f, -1.04f, -0.91f, -1.48f);
+        pathBuilder5.curveTo(12.04f, 9.0f, 11.25f, 8.87f, 10.56f, 9.2f);
+        pathBuilder5.curveToRelative(-0.82f, 0.39f, -0.99f, 1.13f, -1.0f, 1.15f);
+        pathBuilder4.lineToRelative(1.01f, 0.42f);
+        pathBuilder5.curveTo(10.67f, 10.44f, 10.95f, 10.05f, 11.47f, 10.05f);
+        pathBuilder4.close();
+        ImageVector.Builder.m3530addPathoIyEayM$default(builder2, pathBuilder4.getNodes(), VectorKt.getDefaultFillType(), "", new SolidColor(Color.Companion.m2847getBlack0d7_KjU(), (DefaultConstructorMarker) null), 1.0f, (Brush) null, 1.0f, 1.0f, r56, r57, 1.0f, 0.0f, 0.0f, 0.0f, 14336, (Object) null);
+        int r73 = StrokeCap.Companion.m3204getButtKaPHkGw();
+        int r74 = StrokeJoin.Companion.m3214getBevelLxFBmk8();
+        PathBuilder pathBuilder6 = new PathBuilder();
+        pathBuilder6.moveTo(16.99f, 13.94f);
+        pathBuilder6.curveToRelative(-0.83f, 0.0f, -0.99f, -0.76f, -1.02f, -0.86f);
+        pathBuilder6.lineToRelative(-1.03f, 0.41f);
+        PathBuilder pathBuilder7 = pathBuilder6;
+        pathBuilder7.curveToRelative(0.45f, 1.59f, 2.01f, 1.51f, 2.05f, 1.51f);
+        pathBuilder7.curveToRelative(1.2f, 0.0f, 1.68f, -0.72f, 1.76f, -0.85f);
+        pathBuilder7.curveToRelative(0.32f, -0.49f, 0.36f, -1.24f, -0.01f, -1.76f);
+        pathBuilder7.curveToRelative(-0.17f, -0.24f, -0.4f, -0.41f, -0.68f, -0.52f);
+        pathBuilder6.verticalLineTo(11.8f);
+        PathBuilder pathBuilder8 = pathBuilder6;
+        pathBuilder8.curveToRelative(0.2f, -0.1f, 0.37f, -0.26f, 0.52f, -0.48f);
+        pathBuilder8.curveToRelative(0.26f, -0.41f, 0.31f, -1.07f, -0.02f, -1.57f);
+        pathBuilder8.curveTo(18.48f, 9.64f, 18.03f, 9.0f, 16.94f, 9.0f);
+        pathBuilder8.curveToRelative(-1.26f, 0.0f, -1.74f, 0.9f, -1.85f, 1.24f);
+        pathBuilder6.lineToRelative(0.99f, 0.41f);
+        PathBuilder pathBuilder9 = pathBuilder6;
+        pathBuilder9.curveToRelative(0.11f, -0.32f, 0.35f, -0.64f, 0.85f, -0.64f);
+        pathBuilder9.curveToRelative(0.44f, 0.0f, 0.75f, 0.26f, 0.75f, 0.65f);
+        pathBuilder9.curveToRelative(0.0f, 0.58f, -0.55f, 0.72f, -0.88f, 0.72f);
+        pathBuilder6.horizontalLineToRelative(-0.46f);
+        pathBuilder6.verticalLineToRelative(1.0f);
+        pathBuilder6.horizontalLineToRelative(0.5f);
+        PathBuilder pathBuilder10 = pathBuilder6;
+        pathBuilder10.curveToRelative(0.56f, 0.0f, 1.04f, 0.24f, 1.04f, 0.79f);
+        pathBuilder10.curveTo(17.88f, 13.66f, 17.4f, 13.94f, 16.99f, 13.94f);
+        pathBuilder6.close();
+        ImageVector build = ImageVector.Builder.m3530addPathoIyEayM$default(builder, pathBuilder6.getNodes(), VectorKt.getDefaultFillType(), "", new SolidColor(Color.Companion.m2847getBlack0d7_KjU(), (DefaultConstructorMarker) null), 1.0f, (Brush) null, 1.0f, 1.0f, r73, r74, 1.0f, 0.0f, 0.0f, 0.0f, 14336, (Object) null).build();
+        _pin = build;
+        Intrinsics.checkNotNull(build);
+        return build;
+    }
+}

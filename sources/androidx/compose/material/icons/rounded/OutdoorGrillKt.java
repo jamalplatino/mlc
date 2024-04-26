@@ -1,0 +1,126 @@
+package androidx.compose.material.icons.rounded;
+
+import androidx.compose.material.icons.Icons;
+import androidx.compose.ui.graphics.Brush;
+import androidx.compose.ui.graphics.Color;
+import androidx.compose.ui.graphics.SolidColor;
+import androidx.compose.ui.graphics.StrokeCap;
+import androidx.compose.ui.graphics.StrokeJoin;
+import androidx.compose.ui.graphics.vector.ImageVector;
+import androidx.compose.ui.graphics.vector.PathBuilder;
+import androidx.compose.ui.graphics.vector.VectorKt;
+import androidx.compose.ui.unit.Dp;
+import kotlin.Metadata;
+import kotlin.jvm.internal.DefaultConstructorMarker;
+import kotlin.jvm.internal.Intrinsics;
+
+@Metadata(d1 = {"\u0000\u0010\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\b\u0003\"\u0010\u0010\u0000\u001a\u0004\u0018\u00010\u0001X\u000e¢\u0006\u0002\n\u0000\"\u0015\u0010\u0002\u001a\u00020\u0001*\u00020\u00038F¢\u0006\u0006\u001a\u0004\b\u0004\u0010\u0005¨\u0006\u0006"}, d2 = {"_outdoorGrill", "Landroidx/compose/ui/graphics/vector/ImageVector;", "OutdoorGrill", "Landroidx/compose/material/icons/Icons$Rounded;", "getOutdoorGrill", "(Landroidx/compose/material/icons/Icons$Rounded;)Landroidx/compose/ui/graphics/vector/ImageVector;", "material-icons-extended-rounded_release"}, k = 2, mv = {1, 8, 0}, xi = 48)
+/* compiled from: OutdoorGrill.kt */
+public final class OutdoorGrillKt {
+    private static ImageVector _outdoorGrill;
+
+    public static final ImageVector getOutdoorGrill(Icons.Rounded rounded) {
+        Intrinsics.checkNotNullParameter(rounded, "<this>");
+        ImageVector imageVector = _outdoorGrill;
+        if (imageVector != null) {
+            Intrinsics.checkNotNull(imageVector);
+            return imageVector;
+        }
+        ImageVector.Builder builder = r1;
+        ImageVector.Builder builder2 = r1;
+        ImageVector.Builder builder3 = r1;
+        ImageVector.Builder builder4 = r1;
+        ImageVector.Builder builder5 = new ImageVector.Builder("Rounded.OutdoorGrill", Dp.m5626constructorimpl(24.0f), Dp.m5626constructorimpl(24.0f), 24.0f, 24.0f, 0, 0, false, 224, (DefaultConstructorMarker) null);
+        int r22 = StrokeCap.Companion.m3204getButtKaPHkGw();
+        int r23 = StrokeJoin.Companion.m3214getBevelLxFBmk8();
+        PathBuilder pathBuilder = new PathBuilder();
+        pathBuilder.moveTo(17.0f, 22.0f);
+        pathBuilder.curveToRelative(1.66f, 0.0f, 3.0f, -1.34f, 3.0f, -3.0f);
+        pathBuilder.reflectiveCurveToRelative(-1.34f, -3.0f, -3.0f, -3.0f);
+        pathBuilder.curveToRelative(-1.3f, 0.0f, -2.4f, 0.84f, -2.82f, 2.0f);
+        pathBuilder.horizontalLineTo(9.14f);
+        pathBuilder.lineToRelative(1.99f, -3.06f);
+        pathBuilder.curveTo(11.42f, 14.98f, 11.71f, 15.0f, 12.0f, 15.0f);
+        pathBuilder.reflectiveCurveToRelative(0.58f, -0.02f, 0.87f, -0.06f);
+        pathBuilder.lineToRelative(1.02f, 1.57f);
+        pathBuilder.curveToRelative(0.42f, -0.53f, 0.96f, -0.95f, 1.6f, -1.21f);
+        pathBuilder.lineToRelative(-0.6f, -0.93f);
+        PathBuilder pathBuilder2 = pathBuilder;
+        pathBuilder2.curveToRelative(2.1f, -0.95f, 3.64f, -2.9f, 4.02f, -5.24f);
+        pathBuilder2.curveTo(19.01f, 8.54f, 18.52f, 8.0f, 17.92f, 8.0f);
+        pathBuilder2.curveTo(15.31f, 8.0f, 8.69f, 8.0f, 6.08f, 8.0f);
+        pathBuilder2.curveTo(5.48f, 8.0f, 4.99f, 8.54f, 5.09f, 9.14f);
+        pathBuilder2.curveToRelative(0.38f, 2.34f, 1.93f, 4.29f, 4.02f, 5.24f);
+        pathBuilder.lineToRelative(-3.95f, 6.08f);
+        PathBuilder pathBuilder3 = pathBuilder;
+        pathBuilder3.curveToRelative(-0.3f, 0.46f, -0.17f, 1.08f, 0.29f, 1.38f);
+        pathBuilder.horizontalLineToRelative(0.0f);
+        pathBuilder3.curveToRelative(0.46f, 0.3f, 1.08f, 0.17f, 1.38f, -0.29f);
+        pathBuilder.lineToRelative(1.0f, -1.55f);
+        pathBuilder.horizontalLineToRelative(6.34f);
+        PathBuilder pathBuilder4 = pathBuilder;
+        pathBuilder4.curveTo(14.6f, 21.16f, 15.7f, 22.0f, 17.0f, 22.0f);
+        pathBuilder.close();
+        pathBuilder.moveTo(17.0f, 18.0f);
+        pathBuilder4.curveToRelative(0.55f, 0.0f, 1.0f, 0.45f, 1.0f, 1.0f);
+        pathBuilder4.curveToRelative(0.0f, 0.55f, -0.45f, 1.0f, -1.0f, 1.0f);
+        pathBuilder.reflectiveCurveToRelative(-1.0f, -0.45f, -1.0f, -1.0f);
+        pathBuilder4.curveTo(16.0f, 18.45f, 16.45f, 18.0f, 17.0f, 18.0f);
+        pathBuilder.close();
+        ImageVector.Builder.m3530addPathoIyEayM$default(builder4, pathBuilder.getNodes(), VectorKt.getDefaultFillType(), "", new SolidColor(Color.Companion.m2847getBlack0d7_KjU(), (DefaultConstructorMarker) null), 1.0f, (Brush) null, 1.0f, 1.0f, r22, r23, 1.0f, 0.0f, 0.0f, 0.0f, 14336, (Object) null);
+        int r39 = StrokeCap.Companion.m3204getButtKaPHkGw();
+        int r40 = StrokeJoin.Companion.m3214getBevelLxFBmk8();
+        PathBuilder pathBuilder5 = new PathBuilder();
+        pathBuilder5.moveTo(9.5f, 6.47f);
+        PathBuilder pathBuilder6 = pathBuilder5;
+        pathBuilder6.curveTo(9.48f, 6.75f, 9.68f, 7.0f, 9.96f, 7.0f);
+        pathBuilder5.horizontalLineTo(10.0f);
+        pathBuilder6.curveToRelative(0.24f, 0.0f, 0.44f, -0.18f, 0.46f, -0.42f);
+        pathBuilder6.curveToRelative(0.1f, -0.87f, 0.04f, -1.39f, -0.94f, -2.54f);
+        pathBuilder6.curveTo(9.16f, 3.61f, 8.92f, 3.35f, 8.99f, 2.49f);
+        pathBuilder6.curveTo(9.02f, 2.23f, 8.8f, 2.0f, 8.53f, 2.0f);
+        pathBuilder5.horizontalLineTo(8.48f);
+        pathBuilder6.curveTo(8.24f, 2.0f, 8.03f, 2.19f, 8.01f, 2.43f);
+        pathBuilder6.curveToRelative(-0.08f, 0.93f, 0.2f, 1.74f, 0.95f, 2.53f);
+        pathBuilder6.curveTo(9.15f, 5.17f, 9.6f, 5.52f, 9.5f, 6.47f);
+        pathBuilder5.close();
+        ImageVector.Builder.m3530addPathoIyEayM$default(builder3, pathBuilder5.getNodes(), VectorKt.getDefaultFillType(), "", new SolidColor(Color.Companion.m2847getBlack0d7_KjU(), (DefaultConstructorMarker) null), 1.0f, (Brush) null, 1.0f, 1.0f, r39, r40, 1.0f, 0.0f, 0.0f, 0.0f, 14336, (Object) null);
+        int r56 = StrokeCap.Companion.m3204getButtKaPHkGw();
+        int r57 = StrokeJoin.Companion.m3214getBevelLxFBmk8();
+        PathBuilder pathBuilder7 = new PathBuilder();
+        pathBuilder7.moveTo(11.99f, 6.47f);
+        PathBuilder pathBuilder8 = pathBuilder7;
+        pathBuilder8.curveTo(11.96f, 6.75f, 12.17f, 7.0f, 12.45f, 7.0f);
+        pathBuilder7.horizontalLineToRelative(0.03f);
+        pathBuilder8.curveToRelative(0.24f, 0.0f, 0.44f, -0.18f, 0.46f, -0.42f);
+        pathBuilder8.curveToRelative(0.1f, -0.87f, 0.04f, -1.39f, -0.94f, -2.54f);
+        pathBuilder8.curveToRelative(-0.36f, -0.43f, -0.61f, -0.69f, -0.53f, -1.55f);
+        pathBuilder8.curveTo(11.5f, 2.23f, 11.28f, 2.0f, 11.01f, 2.0f);
+        pathBuilder7.horizontalLineToRelative(-0.05f);
+        pathBuilder8.curveToRelative(-0.24f, 0.0f, -0.45f, 0.19f, -0.47f, 0.43f);
+        pathBuilder8.curveToRelative(-0.08f, 0.93f, 0.2f, 1.74f, 0.95f, 2.53f);
+        pathBuilder8.curveTo(11.63f, 5.17f, 12.08f, 5.52f, 11.99f, 6.47f);
+        pathBuilder7.close();
+        ImageVector.Builder.m3530addPathoIyEayM$default(builder2, pathBuilder7.getNodes(), VectorKt.getDefaultFillType(), "", new SolidColor(Color.Companion.m2847getBlack0d7_KjU(), (DefaultConstructorMarker) null), 1.0f, (Brush) null, 1.0f, 1.0f, r56, r57, 1.0f, 0.0f, 0.0f, 0.0f, 14336, (Object) null);
+        int r73 = StrokeCap.Companion.m3204getButtKaPHkGw();
+        int r74 = StrokeJoin.Companion.m3214getBevelLxFBmk8();
+        PathBuilder pathBuilder9 = new PathBuilder();
+        pathBuilder9.moveTo(14.5f, 6.47f);
+        PathBuilder pathBuilder10 = pathBuilder9;
+        pathBuilder10.curveTo(14.48f, 6.75f, 14.68f, 7.0f, 14.96f, 7.0f);
+        pathBuilder9.horizontalLineTo(15.0f);
+        pathBuilder10.curveToRelative(0.24f, 0.0f, 0.44f, -0.18f, 0.46f, -0.42f);
+        pathBuilder10.curveToRelative(0.1f, -0.87f, 0.04f, -1.39f, -0.94f, -2.54f);
+        pathBuilder10.curveToRelative(-0.36f, -0.43f, -0.61f, -0.69f, -0.53f, -1.55f);
+        pathBuilder10.curveTo(14.02f, 2.23f, 13.8f, 2.0f, 13.53f, 2.0f);
+        pathBuilder9.horizontalLineToRelative(-0.05f);
+        pathBuilder10.curveToRelative(-0.24f, 0.0f, -0.45f, 0.19f, -0.47f, 0.43f);
+        pathBuilder10.curveToRelative(-0.08f, 0.93f, 0.2f, 1.74f, 0.95f, 2.53f);
+        pathBuilder10.curveTo(14.15f, 5.17f, 14.6f, 5.52f, 14.5f, 6.47f);
+        pathBuilder9.close();
+        ImageVector build = ImageVector.Builder.m3530addPathoIyEayM$default(builder, pathBuilder9.getNodes(), VectorKt.getDefaultFillType(), "", new SolidColor(Color.Companion.m2847getBlack0d7_KjU(), (DefaultConstructorMarker) null), 1.0f, (Brush) null, 1.0f, 1.0f, r73, r74, 1.0f, 0.0f, 0.0f, 0.0f, 14336, (Object) null).build();
+        _outdoorGrill = build;
+        Intrinsics.checkNotNull(build);
+        return build;
+    }
+}
